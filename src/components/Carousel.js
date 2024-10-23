@@ -109,11 +109,11 @@ const ReSellCases = () => {
       </div>
 
       {/* Carousel navigation buttons */}
-      <div className="buttons text-end p-5 pt-1">
-        <button className="btn rounded-circle" onClick={slideLeft}>
+      <div className="buttons text-end p-5 pt-1 cara">
+        <button className="btn rounded-circle " onClick={slideLeft}>
           <img src={arrow1} alt="" className="img-fluid" />
         </button>
-        <button className="btn rounded-circle" onClick={slideRight}>
+        <button className="btn rounded-circle " onClick={slideRight}>
           <img src={arrow} alt="" className="img-fluid" />
         </button>
       </div>

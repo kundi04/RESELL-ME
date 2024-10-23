@@ -636,6 +636,46 @@ margin-bottom: 700px;
 //12. MEDIA QUIRES
 
   @media only screen and (max-width: 414px) {
+
+.resellmelogo{
+  width: 120px;
+}
+
+
+.about{
+  margin-top: -380px;
+}
+
+// .cara button img{
+//   margin-left: -20px;
+// }
+
+.innerBanner
+{
+  h1{
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  p{
+    font-size: 18px;
+  }
+
+  .bannerButtons .btn{
+    margin: 10px 0px;
+    width: 30vh;
+    font-size: 16px;
+  }
+
+} 
+
+
+
+
+.SecImg{
+  margin-top: -50px;
+}
+
     .testmonial {
       height: auto;
       margin-top: 10vh;
@@ -658,6 +698,10 @@ margin-bottom: 700px;
   
       .tabs {
         width: 5vh;
+      }
+
+      .about{
+        margin-top: -20px;
       }
   
       .testimonialItem {
@@ -694,6 +738,29 @@ margin-bottom: 700px;
   
 
   @media only screen and (max-width: 768px) {
+
+    .resellmelogo{
+      width: 120px;
+    }
+    
+    .innerBanner
+    {
+      h1{
+        font-size: 65px;
+        line-height: 65px;
+      }
+    
+      p{
+        font-size: 18px;
+      }
+    
+      .bannerButtons .btn{
+        margin: 10px 0px;
+        width: 30vh;
+        font-size: 16px;
+      }
+    
+    } 
     .testmonial {
       height: auto; 
       margin-top: 15vh;

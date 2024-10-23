@@ -529,6 +529,27 @@ footer p {
 }
 
 @media only screen and (max-width: 414px) {
+  .resellmelogo {
+    width: 120px;
+  }
+  .about {
+    margin-top: -380px;
+  }
+  .innerBanner h1 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .innerBanner p {
+    font-size: 18px;
+  }
+  .innerBanner .bannerButtons .btn {
+    margin: 10px 0px;
+    width: 30vh;
+    font-size: 16px;
+  }
+  .SecImg {
+    margin-top: -50px;
+  }
   .testmonial {
     height: auto;
     margin-top: 10vh;
@@ -548,6 +569,9 @@ footer p {
   }
   .testmonial .tabs {
     width: 5vh;
+  }
+  .testmonial .about {
+    margin-top: -20px;
   }
   .testmonial .testimonialItem .slider-container {
     width: 100%;
@@ -572,6 +596,21 @@ footer p {
   }
 }
 @media only screen and (max-width: 768px) {
+  .resellmelogo {
+    width: 120px;
+  }
+  .innerBanner h1 {
+    font-size: 65px;
+    line-height: 65px;
+  }
+  .innerBanner p {
+    font-size: 18px;
+  }
+  .innerBanner .bannerButtons .btn {
+    margin: 10px 0px;
+    width: 30vh;
+    font-size: 16px;
+  }
   .testmonial {
     height: auto;
     margin-top: 15vh;

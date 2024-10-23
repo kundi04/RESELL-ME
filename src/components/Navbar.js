@@ -13,10 +13,10 @@ function App() {
         <Navbar  expand="md">
           <Container>
             <Navbar.Brand href="#logo">
-              <img src={logo} alt="ResellMe Logo" />
+              <img src={logo} alt="ResellMe Logo" className='resellmelogo'/>
             </Navbar.Brand>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-            <Navbar.Collapse id="responsive-navbar-nav">
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" style={{ backgroundColor: 'white' , width: '53px' }} />
+            <Navbar.Collapse id="responsive-navbar-nav" >
               <Nav className="me-auto">
                 <Nav.Link href="#home" className="nav-link">Dogs</Nav.Link>
                 <Nav.Link href="#features" className="nav-link">Blog</Nav.Link>
